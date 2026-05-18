@@ -1,0 +1,5 @@
+class Aplicacao{
+    public Aplicacao{
+        
+    }
+}
