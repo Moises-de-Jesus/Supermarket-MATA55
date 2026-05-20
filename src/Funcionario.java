@@ -12,7 +12,4 @@ class Funcionario{
     public double CalcSalario(){
         return this.salario;
     }
-    public double CalcSalario(double valorExtra, int horaExtra){
-        return this.salario + valorExtra*horaExtra;
-    };
 }
