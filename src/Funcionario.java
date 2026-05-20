@@ -13,7 +13,7 @@ class Funcionario{
         return this.salario;
     }
     public String getNome() {
-        return rhis.nome;
+        return this.nome;
     }
 
     public void setNome(String nome) {
