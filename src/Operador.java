@@ -14,7 +14,7 @@ public class Operadores extends Funcionario
         return this.horasExtra += x;
     }
     @Override
-    public double CalcSalario(){
+    public double calcSalario(){
         return super.getSalario() + (this.valorExtra*this.horasExtra);
     }
 }
