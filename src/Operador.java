@@ -1,9 +1,9 @@
-public class Operadores extends Funcionario
+public class Operador extends Funcionario
 {
     private double horasExtra;
     private double valorExtra;
 
-    public Operadores(String nome, String cpf, double salario, double horasExtra, double valorExtra)
+    public Operador(String nome, String cpf, double salario, double horasExtra, double valorExtra)
     {
         super(nome, cpf, salario);
         this.horasExtra = horasExtra;
