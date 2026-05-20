@@ -9,11 +9,11 @@ class Funcionario{
         this.salario = salario;
     };
     
-    public double CalcSalario(){
+    public double calcSalario(){
         return this.salario;
     }
     public String getNome() {
-        return rhis.nome;
+        return this.nome;
     }
 
     public void setNome(String nome) {
