@@ -1,4 +1,18 @@
 class Funcionario{
-    Funcionario(){
+    private String nome;
+    private String cpf;
+    private double salario;
+    public Funcionario(String nome, String cpf, double salario)
+    {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.salario = salario;
+    };
+    
+    public double CalcSalario(){
+        return this.salario;
     }
+    public double CalcSalario(double valorExtra, int horaExtra){
+        return this.salario + valorExtra*horaExtra;
+    };
 }
