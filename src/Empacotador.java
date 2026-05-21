@@ -7,7 +7,7 @@ class Empacotador extends Funcionario{
     }
 
     public boolean temAumento(){
-
+        
     }
     @Override
     public double calcSalario(){

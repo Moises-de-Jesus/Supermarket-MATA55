@@ -1,3 +1,5 @@
+"Classe operadora"
+
 public class Operador extends Funcionario
 {
     private double horasExtra;
